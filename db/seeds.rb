@@ -8,14 +8,17 @@
 
 require 'faker'
 
+User.destroy_all
+Article.destroy_all
+
 10.times do |time|
   User.create(email: Faker::Internet.email, password:"AZERTY")
 end
 
 30.times do |time|
   Article.create(
-    title:Faker::GreekPhilosophers.quote,
-    content:Faker::ChuckNorris.fact,
-    user: User.find(rand(1...10email: Faker::Internet.email, password:"123456"))
-  )
+      title:Faker::GreekPhilosophers.quote,
+      content:Faker::ChuckNorris.fact,
+      user: User.find(rand(1..10))
+    )
 end
