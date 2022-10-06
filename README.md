@@ -1,24 +1,38 @@
-# README
+<div align="center">
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[![THP Badge](https://github.com/0xKubitus/Usefull-Stuff-for-README/blob/main/assets/mkdwn-badges/the-hacking-project.svg
+)](https://www.thehackingproject.org/)
 
-Things you may want to cover:
+# Rails 6 API Boilerplate with Authentication
 
-* Ruby version
+## Introduction
+This project follows James Chambers <a href="https://jameschambers.co.uk/rails-api">tutorial</a>.
 
-* System dependencies
+It uses Devise for Authentication, JSON:API for API responses, and Rspec for testing.
 
-* Configuration
+[![forthebadge](https://forthebadge.com/images/badges/made-with-ruby.svg)](https://forthebadge.com)
 
-* Database creation
+![Rails](https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white)
 
-* Database initialization
+![My Skills](https://skillicons.dev/icons?i=sqlite)
+</div>
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+<hr/>
+<br/>
 
-* Deployment instructions
+## How to use this repo?
+Simply clone this repo to get a basic Rails 6 API with functionning user authentication thanks to devise and devise-jwt Gems.
 
-* ...
+<br/>
+<hr/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+# NOTE FOR MYSELF:
+=> Reprendre de A à Z ce projet en suivant bien le tuto car, par exemple, pour l'instant j'ai pas les tests + j'ai jamais essayé de brancher ce boilerplate à une App React pour tester si l'authentication du user fonctionne bien ...
+<hr/>
+
+
